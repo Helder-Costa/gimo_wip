@@ -160,7 +160,7 @@ a.logo img{
 
 .content__item {
 	position: absolute;
-	top: 0;
+	top: 1rem;
 	right: 0;
 	width: 70%;
 	height: 100%;
@@ -571,7 +571,7 @@ a.logo img{
 		height: 100%;
 	}
 	.content__item {
-		padding: 0 1.5rem;
+		padding: 1rem 1.5rem;
 		width: 70%;
 		left: 30%;
 /*		right: 7.5%; */
@@ -582,7 +582,7 @@ a.logo img{
 	/*	top: calc(10vh + 1rem); */
 	}
 	.content__number {
-		position: absolute;
+/*		position: absolute; */
 		bottom: 7vh;
 		right: 0;
 		font-size: 2rem;

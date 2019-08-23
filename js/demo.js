@@ -236,8 +236,15 @@
  * This is for the Diagonal slider
  */
 {
+
+  // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
   // From http://www.quirksmode.org/js/events_properties.html#position
   // Get the mouse position.
+
   const getMousePos = (e) => {
       let posx = 0;
       let posy = 0;

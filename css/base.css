@@ -162,9 +162,9 @@ a.logo img{
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 100%;
+	width: 70%;
 	height: 100%;
-	padding: 10vh 5vw;
+	padding: 10vh 1.5rem;
 	overflow: auto;
 }
 
@@ -175,8 +175,8 @@ a.logo img{
 
 .content__close {
 	position: absolute;
-	top: 1rem;
-	left: 1rem;
+	top: -3.2rem;
+	left: 1.5rem;
 	background: none;
 	color: currentColor;
 	border: 0;
@@ -567,7 +567,7 @@ a.logo img{
 	}
 
 	.content {
-		top: 0;
+/*		top: 0; */
 		height: 100%;
 	}
 	.content__item {
@@ -578,7 +578,7 @@ a.logo img{
 	}
 	.content__close {
 		left: 42%;
-		top: calc(10vh + 1rem);
+	/*	top: calc(10vh + 1rem); */
 	}
 	.content__number {
 		position: absolute;

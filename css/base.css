@@ -603,8 +603,8 @@ a.logo img{
 
 	.slideshow {
 /*		height: 100vh; */
-		grid-template-columns: 27% 27% 27%;
-		grid-column-gap: 9.5%;
+/*		grid-template-columns: 27% 27% 27%;
+/*		grid-column-gap: 9.5%;
 /*		height: calc(100vh - 80px); */
 		height: calc(var(--vh, 1vh) * 100 - 80px);
 	}

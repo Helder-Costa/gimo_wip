@@ -164,7 +164,7 @@ a.logo img{
 	right: 0;
 	width: 70%;
 	height: 100%;
-	padding: 10vh 1.5rem;
+	padding: 0 1.5rem;
 	overflow: auto;
 }
 
@@ -176,7 +176,7 @@ a.logo img{
 .content__close {
 	position: absolute;
 	top: -3.2rem;
-	left: 1.5rem;
+	left: 14rem;
 	background: none;
 	color: currentColor;
 	border: 0;
@@ -571,13 +571,14 @@ a.logo img{
 		height: 100%;
 	}
 	.content__item {
-		padding: calc(10vh + 5rem) 0 7vh;
-		width: 50.5%;
-		right: 7.5%;
+		padding: 0 1.5rem;
+		width: 100%;
+		left: 30%;
+/*		right: 7.5%; */
 		overflow: visible;
 	}
 	.content__close {
-		left: 42%;
+		left: 32%;
 	/*	top: calc(10vh + 1rem); */
 	}
 	.content__number {
@@ -597,7 +598,6 @@ a.logo img{
 		font-size: 0.95rem;
 		column-count: 2;
 		column-gap: 2rem;
-		max-width: 600px;
 		text-align: justify;
 	}
 

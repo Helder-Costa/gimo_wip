@@ -571,7 +571,7 @@ a.logo img{
 		height: 100%;
 	}
 	.content__item {
-		padding: 1rem 1.5rem;
+		padding: 0 1.5rem;
 		width: 70%;
 		left: 30%;
 /*		right: 7.5%; */

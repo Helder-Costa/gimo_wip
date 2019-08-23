@@ -233,7 +233,8 @@ a.logo img{
 	margin: 0;
 /*	height: 100vh; */
 	width: 100%;
-	height: calc(100vh - 80px);
+/*	height: calc(100vh - 80px); */
+	height: calc(var(--vh, 1vh) * 100 - 80px);
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-column-gap: 0.5%;

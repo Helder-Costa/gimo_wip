@@ -286,11 +286,11 @@ a.logo img{
 .slidenav {
 	position: absolute;
 	background: none;
-	width: 3rem;
-	height: 3rem;
+/*	width: 3rem; */
+/*	height: 3rem; */
 	z-index: 100;
 	border: 0;
-	padding: 0;
+	padding: 0.3rem;
 	margin: 0;
 	pointer-events: none;
 	transition: transform 0.8s, opacity 0.8s;

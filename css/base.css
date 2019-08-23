@@ -25,7 +25,7 @@ body {
 	font-family: "europa", Futura, Arial, sans-serif;
 	min-height: 100vh;
 /*	min-height: -webkit-fill-available; */
-	min-height: calc(var(--vh, 1vh) * 100);
+/*	min-height: calc(var(--vh, 1vh) * 100); */
 	color: #57585c;
 	color: var(--color-text);
 	background-color: #fff;

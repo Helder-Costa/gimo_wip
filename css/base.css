@@ -604,7 +604,8 @@ a.logo img{
 /*		height: 100vh; */
 		grid-template-columns: 27% 27% 27%;
 		grid-column-gap: 9.5%;
-		height: calc(100vh - 80px);
+/*		height: calc(100vh - 80px); */
+		height: calc(var(--vh, 1vh) * 100 - 80px);
 	}
 	.slide {
 		padding: 10vh 0 7vh;
